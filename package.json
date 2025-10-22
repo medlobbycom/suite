@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 4000",
+    "build": "next build --turbopack",
+    "start": "next start -p 4000",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "@fastify/multipart": "^9.2.1",
+    "@prisma/client": "^6.18.0",
+    "add": "^2.0.6",
+    "archiver": "^7.0.1",
+    "bcrypt": "^6.0.0",
+    "boxen": "^8.0.1",
+    "chalk": "4",
+    "dayjs": "^1.11.18",
+    "figlet": "^1.9.3",
+    "glob": "^11.0.3",
+    "inquirer": "8",
+    "lucide-react": "^0.546.0",
+    "next": "15.5.6",
+    "next-themes": "^0.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwindcss": "^3.0.0",
+    "unzipper": "^0.12.3",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/add": "^2",
+    "@types/bcrypt": "^6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.6",
+    "postcss": "^8.5.6",
+    "typescript": "^5"
+  }
+}
